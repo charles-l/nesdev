@@ -1,6 +1,7 @@
 install:
-* vagrant
-* fceux
+* virtualbox (https://www.virtualbox.org/)
+* vagrant (https://www.vagrantup.com/downloads.html)
+* fceux (or whatever emulator you want)
 
 links:
 http://blog.fritzvd.com/2016/06/13/Getting-started-with-NES-programming/
@@ -8,7 +9,8 @@ http://anton.maurovic.com/posts/nintendo-nes-gamedev-part-1-setting-up/
 
 to build:
 
-    vagrant up && vagrant ssh
+    vagrant up
+    vagrant ssh
 
     # in vm
 
